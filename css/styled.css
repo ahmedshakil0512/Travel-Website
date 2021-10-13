@@ -1,0 +1,366 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/*============ header section starts here ============== */
+.homes{
+    background-image: url('../img/home1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top  center;
+    width: 100%;
+}
+.bg-navbar{
+    background: rgba(0, 0, 0, 0.185);
+    border-bottom: 2px solid white;
+}
+.styled-list{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.styled-list:hover{
+    color: white;
+    text-decoration:none;
+    border-bottom: 2px solid white;
+}
+/*============ header section ends here ============== */
+/* =========== home section starts here =============  */
+.contents{
+    margin-top: 170px;
+    padding-bottom: 60px;
+   
+}
+.contents h5{
+    font-size: 22px;
+}
+.contents h2 {
+    font-size: 81px;
+}
+.buttons{
+    border: none;
+    padding: 8px 22px;
+    color: white;
+    background: hsl(199,64%,22%);
+}
+.social-icons i{
+    width: 30px;
+    height: 30px;
+    font-size: 19px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 5px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.right-content {
+    width: 290px;
+    background: hsl(199,64%,22%);
+    color: white;
+    height: 220px;
+    display: block;
+    margin: auto;
+    margin-bottom: 80px;
+   
+}
+.last-box{
+    overflow: hidden;
+}
+.images{
+   margin-top: -30px;
+   padding: 40px;
+   transition: .4s;
+}
+.images:hover{
+    transform: scale(1.1);
+}
+.right{
+    padding-top: 350px;
+    padding-bottom: 30px;
+}
+
+/* =========== home section endss here =============   */
+/* =========== about-section starts here =============   */
+.about-1 h2{
+    color: hsl(199,64%,22%);
+    font-size: 36px;
+
+}
+.about-2{
+    overflow: hidden;
+}
+.about-2 img{
+    transition: .3s;
+    /* margin-bottom: 60px; */
+}
+.about-2 img:hover{ 
+
+    transform: scale(1.1);
+}
+/* =========== about-section ends here   =============   */
+/* =========== discover-section starts here   =============   */
+.discover-blogs-title h2 {
+    color: hsl(199,64%,22%);
+    font-size: 45px;
+    text-align: center;
+}
+.discover-1{
+    position: relative;
+    overflow: hidden;
+    
+}
+.discover-2{
+    position: relative;
+    overflow: hidden;
+    
+}
+.discover-3{
+    position: relative;
+    overflow: hidden;
+    
+}
+.discover-1 img{
+    transition: .3s;
+}
+.discover-1 img:hover{
+    transform: scale(1.1);
+}
+.discover-2 img{
+    transition: .3s;
+}
+.discover-2 img:hover{
+    transform: scale(1.1);
+}
+.discover-3 img{
+    transition: .3s;
+}
+.discover-3 img:hover{
+    transform: scale(1.1);
+}
+.discover-all{
+    padding: 0px 50px;
+}
+.discover-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    padding: 15px;
+    margin-top: 210px;
+}
+.discover-title2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    padding: 15px;
+    margin-top: 230px;
+    
+}
+/* =========== discover-section ends here   =============   */
+/* =========== experience-section starts here   =============   */
+.experience-main-row{
+    padding:0% 15%;
+    margin-bottom: 40px;
+}
+.single-experience{
+    position:relative;
+    color: hsl(199,64%,22%);
+}
+.single-experience h2{
+    font-size: 42px;
+}
+.expericence-img{
+    position: relative;
+}
+.e-img{
+    overflow: hidden;
+}
+.e-img img{
+    width: 900px;
+    transition: .5s;
+    cursor: pointer;
+}
+.e-img img:hover{
+    transform:scale(1.1);
+}
+.e-img-2{
+    position:absolute;
+    left: 60%;
+    top: 20%;
+    overflow: hidden;
+}
+.e-img-2 img{
+    transition: .4s;
+    cursor: pointer;
+}
+.e-img-2 img:hover{
+    transform: scale(1.1);
+}
+/* =========== experience-section ends here   =============   */
+/* =========== tourvideo-section stats here =============   */
+.tour-title h1{
+    color: hsl(199,64%,22%);
+    font-weight: bold;
+}
+/* =========== tourvideo-section ends here =============   */
+/* =========== choose-section starts here =============   */
+.choose-title h1{
+    color: hsl(199,64%,22%);
+}
+.place-box{
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+.place-box::after {
+    content: "";
+    position: absolute;
+    top: 455px;
+    left: 272px;
+    width: 50px;
+    height: 30px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background: hsl(180deg 91% 29%);
+}
+.place-box img{
+    transition: .3s;
+}
+.place-box img:hover{
+    transform: scale(1.1);
+}
+.box-contents{
+    position: absolute;
+    top: 0;
+    left: 5%;
+    color: white;
+}
+.box-contents p{
+    position: absolute;
+    top: 25px;
+    left: 220px;
+    font-size: 20px;
+}
+.box-contents h4{
+    position: absolute;
+    width: 300px;
+    left:10%;
+    top: 220px;
+}
+.box-contents h5 {
+    position: absolute;
+    left:10%;
+    top: 245px;
+}
+.box-contents h2{
+    position: absolute;
+    left:10%;
+    top: 280px;
+}
+.choose-row{
+    padding: 1% 8%;
+}
+/* =========== choose-section ends here =============   */
+/* =========== subscribe-section starts here ============= */
+.main-subscribe{
+    background:#11414b;
+
+}
+.subscribe-single h1{
+    color: white;
+    padding-top: 4%;
+    padding-bottom: 2%;
+
+}
+.subscribe-single p{
+
+    color: white;
+
+}
+.input-email{
+    position: relative;
+   
+}
+.input-email input{
+    color:#11414b;
+    border: none;
+    outline: none;
+    padding: 18px;
+    width: 350px;
+    border-radius: 35px;
+}
+.input-over {
+    position: absolute;
+    top: 23px;
+    left: 54.2%;
+}
+.input-over button{
+    border: none;  
+    padding: 11px 25px;
+    font-weight: bold;
+    background:#11414b;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.input-over button:hover{
+    background: hsl(199,64%,22%);
+}
+/* =========== subscribe-section ends here ============= */
+/* =========== logo-section starts here ============= */
+.logo-main{
+    padding: 1% 10%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.logo-box img{
+    transition: .5s;
+    cursor: pointer;
+}
+.logo-box img:hover{
+    transform: scale(1.1);
+}
+/* =========== logo-section ends here ============= */
+/* =========== footer-section starts here ============= */
+.footer-box1 {
+    margin-bottom: 40px;
+}
+.footer-box1 h3{
+    color:#11414b;
+    cursor: pointer;
+}
+.footer-box1 p{
+    color:#11414b;
+    font-size: 17px;
+
+}
+.footer-box{
+    margin-bottom: 40px;
+}
+.footer-box h3{
+    color:#11414b;
+    cursor: pointer;
+}
+.footer-box li{
+    color:#11414b;
+    font-size: 17px;
+}
+.footer-main{
+    padding-left: 6%;
+}
+.creadit-title{
+    color:#11414b;
+    cursor: pointer;
+    font-weight: bold;
+}
+/* =========== footer-section ends here ============= */
+
